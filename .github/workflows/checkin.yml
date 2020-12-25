@@ -28,4 +28,3 @@ jobs:
           URL: ${{ secrets.CHECKIN_URL }}
           EMAIL: ${{ secrets.CHECKIN_EMAIL }}
           PASSWORD: ${{ secrets.CHECKIN_PASSWORD }}
-          PUSH_KEY: ${{ secrets.PUSH_KEY || github.event.client_payload.PUSH_KEY }}
